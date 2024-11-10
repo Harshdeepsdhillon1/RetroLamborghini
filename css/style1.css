@@ -1,0 +1,64 @@
+/* Reset default margin and padding for all elements */
+h1,h2,h3,h4,h5,h6,p{
+    font-family: 'Exo', sans-serif;
+}
+h2{
+    font-size: 40px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set up basic styles for the body */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header containing the logo and navigation */
+header {
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+/* Style the logo */
+.logo img {
+    width: 180px;
+    height: auto;
+    max-width: 100%;
+}
+
+/* Style the navigation menu */
+nav menu {
+    display: flex;
+    
+    
+}
+
+nav menu li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+nav menu li a {
+    text-decoration: none;
+    color: rgb(220, 191, 29);
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav menu li a:hover {
+    color: white;
+}
+
+/* Style the main content */
+main {
+    padding: 20px;
+}
+
+/* Style the sections */

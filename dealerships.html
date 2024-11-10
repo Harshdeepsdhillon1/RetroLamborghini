@@ -1,0 +1,94 @@
+<!--Myself Harshdeep Singh (Student number 200555911) and Muskanpreet Kaur (Student Number 200555994 ) are teaming up to create a website about Lamborghini Countach 1985-->
+<!--This is our page 3 called dealerships.html-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--meta data-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Website for project">
+        <meta name="robots" content="noindex, nofollow">
+        <!--Our Css-->
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Project site</title>
+        <!--fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <!--header with logo and nav links-->
+        <header>
+            <!--Our logo-->
+            <div class="logo">
+                <a href="index.html"><img src="img/logo.jpg" alt="logo"></a>
+            </div>
+            <!--Our nav links-->
+            <nav>
+                <menu>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="explore.html">EXPLORE</a></li>
+                    <li><a href="dealerships.html">DEALERSHIPS</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                </menu>
+            </nav>
+        </header>
+    <main>
+        <!--dealerships section-->
+        <section class="dealerships">
+            <div>
+                <h1>Lamborghini Dealerships</h1>
+            
+            </div>
+            <p>Find your nearest Lamborghini dealership and experience the thrill of luxury and performance.</p>
+            <!-- Dealership Contact Form -->  
+            <div class="form">
+                <form action="/submit_form.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+    
+                    <label for="telephone">Telephone:</label>
+                    <input type="tel" id="telephone" name="telephone" required>
+    
+                    <label for="address">Address:</label>
+                    <input type="text" id="address" name="address" required>
+    
+                    <label for="city">City:</label>
+                    <input type="text" id="city" name="city" required>
+    
+                    <label for="postal-code">Postal Code:</label>
+                    <input type="text" id="postal-code" name="postal-code" required>
+    
+                    <label for="province">Province:</label>
+                    <input type="text" id="province" name="province" required>
+    
+                    <label for="country">Country:</label>
+                    <input type="text" id="country" name="country" required>
+    
+                    <!--button for submission-->
+    
+                    <button type="submit">Find</button>
+                </form>
+            </div>
+            
+        </section>
+    </main>
+    <footer>
+        <div>
+            <h4>COMPANY</h4>
+            <h4>PRIVACY & LEGAL</h4>
+            <h4>SUSTAINABILITY</h4>
+            <h4>CAREERS</h4>
+        </div>
+        
+        <!-- Our footer and copyright information -->
+        <p>&copy; 1986 Lamborghini. All rights reserved.</p>
+    </footer>
+    </body>
+    <!--Linking our js-->
+    <script src="./js/script.js"></script>
+</html>

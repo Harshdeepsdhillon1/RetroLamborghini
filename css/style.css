@@ -1,0 +1,683 @@
+/*This is style.css for our project 
+Myself Harshdeep Singh (Student number 200555911) and Muskanpreet Kaur (Student Number 200555994 ) are teaming up to create a website about Lamborghini Countach 1985*/
+
+
+
+
+/* General styling */
+h1,h2,h3,h4,h5,h6,p,figcaption, a, li, form{
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2{
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* Style the header containing the logo and navigation */
+header {
+    background-color: black;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-attachment: fixed; /* Header background fixed */
+    height: 120px;
+}
+
+/* Style the logo */
+.logo img {
+    width: 180px; /* Adjust the width to your logo size */
+    height: auto;
+    max-width: 100%; /* Ensure the logo does not exceed its container's width */
+}
+
+/* Style the navigation menu */
+nav menu {
+    display: flex;
+}
+
+nav menu li {
+    list-style: none;
+    margin-left: 20px; /* Add some spacing between menu items */
+}
+
+nav menu li a {
+    text-decoration: none;
+    color: rgb(220, 191, 29);
+    font-weight: bold;
+    transition: color 0.3s ease; /* Add a smooth color transition on hover */
+}
+
+nav menu li a:hover {
+    color: white; /* Change the color to white on hover */
+}
+
+/* Style the footer */
+footer {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  color: gold;
+  height: 150px;
+}
+footer div{
+  display: flex;
+  justify-content: center;
+  height: 80px;
+}
+footer div h4{
+  font-family:'Roboto', sans-serif;
+  padding: 10px;
+  color: white;
+}
+
+footer div h4:hover{
+  color: gold;
+}
+
+/*HOME page design begins-----------------------------------------*/
+
+/* Style the main section containing the heading */
+.heading {
+    padding: 25px;
+    text-align: center;
+    background-image: url("../img/headerbg.jpg"); /* Add your background image */
+     /* Set a maximum width for the section */
+    background-attachment: fixed; /* Background image fixed */
+    background-size: cover;
+    color: white; /* Set the text color for the heading section */
+    height: 800px;
+}
+.heading  h1{
+    font-size: 100px;
+}
+.heading h2{
+    color: rgb(255, 25, 25);
+
+}
+
+/*info section styling*/
+.info {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    padding: 40px;
+    
+}
+.info p{
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+
+/*styling our 80's button*/
+.button{
+    text-align: center;
+}
+.button a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(255, 200, 0);
+    font-family:'Exo', sans-serif;
+    font-size: 60px;
+}
+
+/*Page 2 EXPLORE styling----------------------------------------------------------------*/
+/* Style the heading in each section */
+section h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style the paragraph text */
+section p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/*adding our background image and styling main heading*/
+.heading1{ 
+    background-image: url(../img/lueCountachTop1.jpg);
+    background-size: cover;
+    height: 600px;
+    width: 1220;
+    background-attachment: fixed;
+    
+}
+.heading1 h1{
+    padding-top: 140px;
+    font-size: 100px;
+    color: aliceblue;
+}
+/*sport section styling*/
+.sport{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sport p{
+    font-size: 22px;
+    color: aliceblue;
+    margin-top: 40px;
+}
+
+/*engine section styling*/
+.engine{
+    align-items: center;
+    text-align: center;
+}
+.engine h2{
+  font-size: 70px;
+}
+.engine h2, .engine p{
+    padding: 10px;
+}
+
+/*styling our sub div called engineImages*/
+.engineImages{
+    display: flex;
+    justify-content: space-evenly;
+}
+.engineImages img{
+    width: 490px;
+    height: 290px;
+    padding: 20px;
+    object-fit: cover;
+    border-top-right-radius: 10px;
+}
+
+/* Styling the exterior section */
+.exterior{
+    height: max-content;
+    text-align: center;
+    padding: 20px;
+}
+.exterior h2{
+    padding: 10px;
+    font-size: 70px;
+}
+.exterior .images {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.exterior .images img {
+    width: 350px;
+    height: 200px;
+    padding: 10px;
+    object-fit: cover;
+}
+
+/*styling our interior section*/
+.interior {
+    padding: 20px;
+    text-align: center;
+}
+
+.interior h2{
+    padding: 10px;
+    font-size: 70px;
+}
+/*styling our sub div called interiorImages*/
+.interiorImages{
+display: flex;
+justify-content: space-evenly;
+}
+.interiorImages img{
+    width: 550px;
+    height: 350px;
+    padding: 10px;
+    object-fit: cover;
+}
+
+/* Styling the technical specs section */
+.tech-specs{
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+}
+.tech-specs h2{
+    color: aliceblue;
+    padding: 10px;
+    font-size: 40px;
+}
+ .tech-specs ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ .tech-specs ul li {
+    margin-bottom: 5px;
+    color: aliceblue;
+}
+
+
+
+/*--------------------------------------------*/
+/*Page 3 About design*/
+
+/*styling our about section*/
+.about{
+  align-items: center;
+  text-align: center;
+}
+.about p{
+  margin: 10px;
+  font-size: 16px;
+  font-weight: lighter;
+}
+.about .cars {
+  height: 800px;
+  padding: auto;
+}
+.about .cars img{
+  height: 800px;
+  width: auto;
+}
+.about h1{
+  text-align: center;
+  color: black;
+  font-size: 40px;
+  font-family: 'Open-sans',sans-serif;
+  font-weight: lighter;
+  font-style: italic;
+}
+.about h2{
+  font-size: 70px;
+  font-weight: bolder;
+  color: black;
+}
+/*styling our creator section*/
+.creator{
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+    width: auto;
+    padding: 20px;
+}  
+/*styling our gt-350 section*/
+.gt-350{
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+    width: auto;
+    padding: 20px;
+    align-items: center;
+}
+.gt-350 img{
+    padding: 20px;
+    height: 300px;
+    width: auto;
+}
+
+/*styling our muria section*/
+.muria {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+.muria img{
+    height: 400px;
+    width: auto;
+    padding: 10px;
+}
+
+
+
+/*styling our cars div in about section*/
+.about .cars{
+    align-items: center;
+    height: 900px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 90px;
+}
+
+
+.cars img{
+    height: 650px;
+    width: auto;
+    padding:30px;
+}
+
+/*styling our murcielago section*/
+.murcielago{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    height: 400px;
+    width: auto;
+}
+.murcielago img{
+    padding: 10px;
+    height: 300px;
+    width: auto;
+}
+
+/*styling our gallery*/
+.gallery{
+    display: flex; 
+    flex-direction: column;
+    background-color: black;
+    justify-content: space-evenly;
+    height: auto;
+    width: 1263px;
+    padding: 10px;
+    align-items: center;
+}
+.gallery div{
+    display: flex;
+    justify-content: space-evenly;
+}
+.gallery h3{
+    color: aliceblue;
+    font-size: 40px;
+}
+.gallery figcaption{
+    color: aliceblue;
+}
+.gallery img{
+    height: 200px;
+    padding: 10px;
+}
+
+/*Dealerships page design begins--------------------------------------------*/
+/*styling our dealerships section*/
+.dealerships {
+    background-image: url(../img/dealerCountach.jpg);
+    background-size: cover;
+    height: 900px;
+    width: auto;
+    background-attachment: fixed;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+.dealerships div h1{
+    color: aliceblue;
+    margin-top: 100px;
+    font-size: 50px;
+}
+.dealerships p{
+    color: white;
+}
+
+/* Style the form container */
+.form{
+    margin-bottom: 100px;
+}
+form {
+    width: 400px;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* Style form labels */
+form label {
+    font-weight: bold;
+}
+
+/* Style form input fields */
+form input {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the submit button */
+form button[type="submit"] {
+    background-color:black;
+    color: gold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: center;
+    width: 150px;
+}
+
+/* Changing button color on hover */
+form button[type="submit"]:hover {
+    background-color: #d32f2f;
+}
+/*-----------------------------------------------------------------------------------------------*/
+/*Responsive design*/
+/* For screens smaller than 768px  */
+@media screen and (max-width: 768px) {
+  /*general styling*/
+    header {
+      padding: 10px;
+      height: auto;
+    }
+  
+    .logo img {
+      width: 120px;
+    }
+  
+    nav menu {
+      flex-direction: row; /* Stack menu items vertically */
+  }
+
+  nav menu li {
+      padding-right: 5px ; /* Add some spacing between stacked menu items */
+  }
+  
+    main {
+      padding: 10px;
+    }
+    
+    .heading{
+      width: auto;
+    }
+    .heading1 h1 {
+      font-size: 50px;
+    }
+
+    /*Explore page responsive design*/
+    .engine{
+      flex-direction: column;
+    }
+    .engineImages img {
+      width: 100%;
+      height: auto;
+    }
+    
+    .exterior{
+      flex-direction: column;
+    }
+    .exterior .images{
+      flex-direction: column;
+    }
+    .exterior .images img {
+      width: 100%;
+      height: auto;
+    }
+
+    .interior .interiorImages{
+      flex-direction: column;
+    }
+    .interiorImages img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .tech-specs ul {
+      text-align: center;
+    }
+/*About page responsive design*/
+    body{
+      width: auto;
+    }
+    .creator{
+      flex-direction: row;
+    }
+    .creator img{
+      height: 150px;
+      padding: 5px;
+      width: auto;
+    }
+    .creator p:nth-child(1){
+      margin-top: 0px;
+      padding-top: 0px;
+    }
+    .about p{
+      padding: 20px;
+    }
+    .about p:nth-child(2){
+      margin-top: 20px;
+    }
+    .gt-350{
+      flex-direction: column;
+    }
+    .muria{
+      flex-direction: column;
+    }
+    .diablo{
+      flex-direction: column;
+      padding: 10px;
+    }
+    .murcielago{
+      flex-direction: column;
+      padding: 10px;
+    }
+    .murcielago img{
+      height: 200px;
+      width: auto;
+      padding-bottom: 30px;
+    }
+    .gallery{
+      flex-direction: column;
+      width:auto;
+    }
+    .gallery .row1{
+      flex-direction: column;
+    }
+    .gallery .row2{
+      flex-direction: column;
+    }
+  }
+  
+  /* For screens smaller than 500px  */
+  @media screen and (max-width: 500px) {
+    .heading h1 {
+      font-size: 40px;
+    }
+  
+    .heading h2 {
+      font-size: 20px;
+    }
+  
+    .info p {
+      font-size: 14px;
+    }
+  
+    .button a {
+      font-size: 30px;
+    }
+  
+    .heading1 h1 {
+      font-size: 30px;
+    }
+  
+    .sport p {
+      font-size: 18px;
+      margin-top: 20px;
+    }
+  
+    .engine h2,
+    .engine p {
+      font-size: 14px;
+      padding: 5px;
+    }
+  
+    .gallery h3 {
+      font-size: 30px;
+    }
+  
+    .gallery figcaption {
+      font-size: 12px;
+    }
+  
+    .gallery img {
+      height: 150px;
+      padding: 5px;
+    }
+  
+    .about h1 {
+      font-size: 30px;
+    }
+  
+    .about p {
+      font-size: 12px;
+    }
+  
+    .about .cars h1 {
+      font-size: 40px;
+    }
+  
+    .about .cars img {
+      height: 300px;
+      padding: 10px;
+    }
+  
+    .murcielago img {
+      padding: 5px;
+      height: 200px;
+      width: auto;
+    }
+  
+    .exterior .images img {
+      height: 150px;
+      padding: 5px;
+    }
+  
+    .interiorImages img {
+      height: 200px;
+      width: auto;
+      padding: 5px;
+    }
+  
+    .tech-specs h2 {
+      font-size: 20px;
+    }
+  
+    .tech-specs ul li {
+      font-size: 12px;
+    }
+  
+    .dealerships div h1 {
+      font-size: 30px;
+      margin-top: 50px;
+    }
+  
+    form {
+      width: 100%;
+      max-width: 100%;
+    }
+  
+    form button[type="submit"] {
+      width: 100%;
+    }
+  }
+  
